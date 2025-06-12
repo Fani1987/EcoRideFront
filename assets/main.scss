@@ -1,0 +1,66 @@
+@import url("/node_modules/bootstrap-icons/font/bootstrap-icons.css");
+@import "custom";
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+header {
+  border-bottom: 1px solid var(--bg-Dark, #2a5b3f);
+}
+
+main {
+  margin-bottom: 50px;
+}
+
+footer {
+  border-top: 1px solid var(--bg-Dark, #2a5b3f);
+}
+
+footer.footer {
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+  align-items: center;
+  color: var(--bg-Dark, #2a5b3f);
+}
+
+p {
+  font-family: $font-family-serif;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-sans-serif;
+}
+
+.form {
+  width: 21.875rem; // 350px
+  height: 2.5rem; // 40px
+  border-radius: 0.313rem; // 5px
+  border: 1px solid var(--bg-Dark, #2a5b3f);
+  background: rgba(217, 217, 217, 0.5);
+}
+.marginTextForm {
+  margin-left: -14.688rem; // -235px
+}
+.marginDate {
+  margin-left: -19.063rem; // -305px
+}
+
+.marginLeft {
+  margin-left: 15.625rem; // 250px
+}
+
+.marginRight {
+  margin-right: 15.625rem; // 250px
+}
