@@ -4,14 +4,19 @@
 html {
   position: relative;
   min-height: 100%;
+  background-color: $primary;
 }
 
 header {
+  padding-bottom: 10px;
+  background-color: $primary;
   border-bottom: 1px solid var(--bg-Dark, #2a5b3f);
 }
 
 main {
   margin-bottom: 50px;
+  padding: 10px;
+  background-color: $primary;
 }
 
 footer {
@@ -24,8 +29,7 @@ footer.footer {
   bottom: 0;
   width: 100%;
 }
-footer a {
-  align-items: center;
+a {
   color: var(--bg-Dark, #2a5b3f);
 }
 
@@ -41,12 +45,25 @@ h4,
 h5,
 h6 {
   font-family: $font-family-sans-serif;
+  margin: 0;
+}
+
+.imgIllustration {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.imgLogo {
+  width: 50px;
+  height: 50px;
 }
 
 .form {
-  width: 21.875rem; // 350px
-  height: 2.5rem; // 40px
-  border-radius: 0.313rem; // 5px
+  width: 350px;
+  height: 40px;
+  border-radius: 5px;
   border: 1px solid var(--bg-Dark, #2a5b3f);
   background: rgba(217, 217, 217, 0.5);
 }
@@ -57,10 +74,21 @@ h6 {
   margin-left: -19.063rem; // -305px
 }
 
-.marginLeft {
-  margin-left: 15.625rem; // 250px
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.marginRight {
-  margin-right: 15.625rem; // 250px
+.marginNotice {
+  margin-bottom: 70px;
+}
+
+.mentionsTitre {
+  border-bottom: 1px solid var(--bg-Dark, #2a5b3f);
+}
+
+.text-justify {
+  text-align: justify;
 }
