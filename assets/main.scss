@@ -74,13 +74,6 @@ h6 {
   margin-left: -19.063rem; // -305px
 }
 
-.login {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .marginNotice {
   margin-bottom: 70px;
 }
@@ -91,4 +84,27 @@ h6 {
 
 .text-justify {
   text-align: justify;
+}
+
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.register {
+  width: 350px;
+  margin: 50px auto;
+}
+
+.filter-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .filter-toggle {
+    display: block;
+    margin-bottom: 1rem;
+  }
 }
